@@ -1,0 +1,125 @@
+*{
+  margin: 5px;
+  padding: 0;
+
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+
+}
+.phrase{
+    display: flex;
+    flex-direction: column;
+
+}
+.gender{
+ 
+font-size: large;
+
+}
+.li{
+
+  float: left;
+
+}
+.li a{
+ display: flex;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+
+  }
+  li a:hover {
+      color:rgb(245, 238, 16);
+    }
+
+a:link, a:visited {
+    text-decoration: none;
+    color:black
+  }
+  
+  
+  .mercancia{
+      display: flex;
+      flex-direction: column;
+      width: 250px;
+      align-content: space-between;
+      margin: 10px;
+      padding: 20px; 
+      
+  }
+
+  .mercancias{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .mercancia img{
+      height: 150px;
+  
+      width: 250px;;
+      
+      object-fit: cover;;
+  }
+  
+  .mercancia_text{
+    text-align: center;
+  }
+
+  .mercancia_precio{
+    text-align: center;
+    font-weight: bold;
+    
+  }
+
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+    
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.contacto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 1px 0 0 rgb(125, 123, 123);
+}
+.mensaje{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.oferta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 1px 0 0 rgb(125, 123, 123);
+ 
+}
+.atencion{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    align-self: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin-right: 10%;
+}
+
+.atencion2{
+    display: flex;
+    flex-direction: column;
+}
