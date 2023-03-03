@@ -20,7 +20,7 @@ font-size: large;
 }
 .li{
 
-  float: left;
+  float: left
 
 }
 .li a{
@@ -28,8 +28,8 @@ font-size: large;
  text-align: center;
  padding: 14px 16px;
  text-decoration: none;
+ }
 
-  }
   li a:hover {
       color:rgb(245, 238, 16);
     }
